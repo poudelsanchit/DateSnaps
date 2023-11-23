@@ -7,12 +7,10 @@ export default {
     extend: {
       colors:
       {
-        'primary': '#0e121b',
-        'text-primary':'#ffffff',
-        'switch-bg':'#171c26',
-        'green':'#008000',
         'datesprimary': '#fafafa',
-        'datessecondary': '#969696'
+        'datessecondary': '#969696',
+        'border':'#eeeeee'
+
         
   
       },
