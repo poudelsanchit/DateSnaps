@@ -1,8 +1,12 @@
-# React + Vite
+# DateSnaps
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to DateSnaps! 📸
 
-Currently, two official plugins are available:
+DateSnaps is a delightful project built using Vite, React.js, and Tailwind CSS. It serves as a unique way to store and cherish your memories by associating them with specific dates. Capture special moments in the form of photos and easily revisit them based on the dates they were created.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Date-Centric Memories:** Organize your memories in a calendar format, making it easy to relive each moment on its anniversary.
+- **Photo Upload:** Upload and store photos with ease. Each photo is associated with a specific date for a personalized experience.
+- **Intuitive Interface:** A clean and user-friendly interface designed for a seamless experience, allowing you to focus on the memories rather than the app itself.
+- **Vite & React:** Built on modern technologies like Vite and React, ensuring a fast and responsive application.
