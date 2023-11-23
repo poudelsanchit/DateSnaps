@@ -12,7 +12,7 @@ const Body = () => {
 
     return (
         <section ref={targetRef} className="relative h-[300vh] bg-datesprimary">
-            <div className="sticky top-14 flex h-screen  overflow-hidden">
+            <div className="fixed top-20 flex h-screen  overflow-hidden">
                 <motion.div style={{ x }} className="flex">
                     {cards.map((card) => {
                         return <Card card={card} key={card.id} />;

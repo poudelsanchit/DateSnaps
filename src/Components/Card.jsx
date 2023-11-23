@@ -22,7 +22,7 @@ const Card = ({ card }) => {
         //         </p>
         //     </div>
         // </div>
-        <div className='w-[285px]  flex flex-col   font-Roboto'>
+        <div className='w-[285px]  flex flex-col   font-Roboto tracking-tighter	'>
             <div className='flex flex-col items-center border-b-[2px] border-border h-max  w-full pb-4	'>
                 <div className='font-meduim'>
                     {date[0] + " " + date[1]}
