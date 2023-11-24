@@ -10,7 +10,7 @@ const Body = () => {
         target: targetRef,
     });
 
-    const x = useTransform(scrollYProgress, [0, 1], ["0%", "-68.4%"]);
+    const x = useTransform(scrollYProgress, [0, 1], ["0%", "-80%"]);
 console.log(Draft)
     return (
         <section ref={targetRef} className="relative h-[300vh] bg-datesprimary">
