@@ -11,13 +11,13 @@ const Body = () => {
     });
 
     const x = useTransform(scrollYProgress, [0, 1], ["0%", "-68.4%"]);
-
+console.log(Draft)
     return (
         <section ref={targetRef} className="relative h-[300vh] bg-datesprimary">
             <div className="fixed top-20 flex h-screen  overflow-hidden">
                 <motion.div style={{ x }} className="flex">
                     {Draft.map((card) => {
-                        return <Card card={card} key={card.id} />;
+                        return <Card card={card}  />;
                     })}
 
                 </motion.div>
