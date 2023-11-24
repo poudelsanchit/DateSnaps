@@ -1,0 +1,22 @@
+.popbox{
+    background-color: rgb(210, 227, 250);
+    border-radius: 16px;
+    padding: 6px 14px 12px;
+    margin: 4px;
+   
+}
+.title{
+    font-size: medium;
+    color: rgb(72, 72, 72);
+}
+
+.date{
+    font-size: small;
+    color: rgb(125, 125, 125);
+}
+
+.img{
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.309);
+}
