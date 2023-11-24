@@ -2,13 +2,14 @@ import React from 'react'
 import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
 import Card from './Card';
+import "./style/popbox.css"
 const Body = () => {
     const targetRef = useRef(null);
     const { scrollYProgress } = useScroll({
         target: targetRef,
     });
 
-    const x = useTransform(scrollYProgress, [0, 1], ["0%", "-80%"]);
+    const x = useTransform(scrollYProgress, [0, 1], ["0%", "-68.4%"]);
 
     return (
         <section ref={targetRef} className="relative h-[300vh] bg-datesprimary">
