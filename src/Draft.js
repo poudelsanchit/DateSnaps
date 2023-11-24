@@ -12,7 +12,8 @@ export default [
       "title": "Title 1",
       "subdate": "February 5",
 
-    }
+    },
+    "color":"#D2E3FA"
 
   },
   {

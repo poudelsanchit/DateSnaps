@@ -5,6 +5,7 @@ import Draft from '../Draft.js'
 import Card from './Card';
 import "./style/popbox.css"
 const Body = () => {
+    console.log(Math.floor(Math.random()*6 ))
     const targetRef = useRef(null);
     const { scrollYProgress } = useScroll({
         target: targetRef,

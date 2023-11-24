@@ -6,6 +6,7 @@ const Card = ({ card }) => {
     console.log(card)
 
     console.log(card);
+    console.log(card.color)
 
 
     // var date = card.date.split(" ");
@@ -24,7 +25,7 @@ const Card = ({ card }) => {
             </div>
             <div className='h-full border-r-[1px] border-border pl-1 pr-1 pt-2 '>
                 <div>
-                    <div className="popbox">
+                    <div className="  rounded-md pt-[6px] px-[14px] pb-[12px] m-[4px]" style={card.color?{backgroundColor:card.color}:null} >
                         <div className="title">{card?.text?.title}</div>
                         <div className="date">{card.subdate}</div>
                         <div className="image"><img className='img' src={card.img} /></div>
