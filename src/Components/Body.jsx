@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
+import Draft from '../Draft.js'
 import Card from './Card';
 import "./style/popbox.css"
 const Body = () => {
@@ -15,7 +16,7 @@ const Body = () => {
         <section ref={targetRef} className="relative h-[300vh] bg-datesprimary">
             <div className="fixed top-20 flex h-screen  overflow-hidden">
                 <motion.div style={{ x }} className="flex">
-                    {cards.map((card) => {
+                    {Draft.map((card) => {
                         return <Card card={card} key={card.id} />;
                     })}
 
