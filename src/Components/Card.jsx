@@ -1,16 +1,20 @@
 import React from 'react'
-import Popbox from './Popbox';
 import data from '../data';
+import Draft from '../Draft';
 
 const Card = ({ card }) => {
 
-    const Pop = data.map(item => {return( <div className="popbox">
+    const Pop = card.map(item => {return( <div className="popbox">
     <div className="title">{item.Title}</div>
     <div className="date">{item.subdate}</div>
     <div className="image"><img className='img' src={item.img} /></div>
    </div>)})
 
+   console.log(card);
+
+
     var date = card.date.split(" ");
+
     return (
 
         <div className='w-[285px]  flex flex-col  text-base font-Sans-serif font-medium tracking-tighter	'>
