@@ -5,9 +5,7 @@ export default
           "Title":"Moods",
           "date":"January 1",
           "img":"images/peter_cover@2x.jpg",
-          "PromoterShares":3150000,
-          "PromoterHolding":75,
-          "LockendDate":"2023-12-01"
+          "Active" : true
        },
     ]
  
