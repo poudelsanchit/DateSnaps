@@ -3,7 +3,7 @@ export default [
         "id": 1,
         "date": 'Oct 1 2019',
         "title": "Title 1",
-        "subdate": "February 5",
+        // "subdate": "February 5",
         "img": "images/agnes-1.jpg",
         "Active": true,
         "text": {
@@ -18,7 +18,7 @@ export default [
         "id": 2,
         "date": 'Jun 8 2019',
         "title": "Title 2",
-        "subdate": "December 22",
+        // "subdate": "December 22",
         "img": "images/agnes-2.jpg",
         "Active": true,
         "color": "#FACADA"
@@ -27,7 +27,7 @@ export default [
         "id": 3,
         "date": 'May 22 2020',
         "title": "Title 3",
-        "subdate": "March 15",
+        // "subdate": "March 15",
         "img": "images/agnes-3.jpg",
         "Active": true,
         "color": "#BEE3D2"
@@ -45,7 +45,7 @@ export default [
         "id": 5,
         "date": 'Jul 9 2020',
         "title": "Title 5",
-        "subdate": "June 12",
+        // "subdate": "June 12",
         "img": "images/antoine-1.jpg",
         "Active": true,
         "color": "#FAD2E3"
@@ -54,7 +54,7 @@ export default [
         "id": 6,
         "date": 'Nov 28 2020',
         "title": "Title 6",
-        "subdate": "October 2",
+        // "subdate": "October 2",
         "img": "images/antoine-2.jpg",
         "Active": true,
         "color": "#D2FACB"
@@ -63,7 +63,7 @@ export default [
         "id": 7,
         "date": 'Jan 12 2021',
         "title": "Title 7",
-        "subdate": "January 17",
+        // "subdate": "January 17",
         "img": "images/antoine-3.jpg",
         "Active": true,
         "color": "#E3FACD"
@@ -72,7 +72,7 @@ export default [
         "id": 8,
         "date": 'Apr 16 2021',
         "title": "Title 8",
-        "subdate": "June 6",
+        // "subdate": "June 6",
         "img": "images/bcn-shoot.jpg",
         "Active": true,
         "color": "#FAD2E3"
@@ -81,7 +81,7 @@ export default [
         "id": 9,
         "date": 'Jun 17 2021',
         "title": "Title 9",
-        "subdate": "November 21",
+        // "subdate": "November 21",
         "img": "images/camera-roll.jpg",
         "Active": true,
         "color": "#D2E3FA"
@@ -90,7 +90,7 @@ export default [
         "id": 10,
         "date": 'Oct 1 2019',
         "title": "Title 10",
-        "subdate": "August 14",
+        // "subdate": "August 14",
         "img": "images/christian@2x.jpg",
         "Active": true,
         "color": "#FACBDA"
@@ -99,7 +99,7 @@ export default [
         "id": 11,
         "date": 'May 22 2020',
         "title": "Title 11",
-        "subdate": "September 3",
+        // "subdate": "September 3",
         "img": "images/duo-1.jpg",
         "Active": true,
         "color": "#FACBDA"
@@ -107,7 +107,7 @@ export default [
       {
         "id": 12,
         "title": "Title 12",
-        "subdate": "July 19",
+        // "subdate": "July 19",
         "img": "images/duo-2.jpg",
         "Active": true,
         "color": "#E3FACD"
@@ -116,7 +116,7 @@ export default [
         "id": 13,
         "date": 'Jul 1 2020',
         "title": "Title 13",
-        "subdate": "April 27",
+        // "subdate": "April 27",
         "img": "images/duo-3.jpg",
         "Active": true,
         "color": "#FACBDA"
@@ -125,7 +125,7 @@ export default [
         "id": 14,
         "date": 'Jul 9 2020',
         "title": "Title 14",
-        "subdate": "May 10",
+        // "subdate": "May 10",
         "img": "images/duo-4.jpg",
         "Active": true,
         "color": "#FACADA"
@@ -134,7 +134,7 @@ export default [
         "id": 15,
         "date": 'Nov 28 2020',
         "title": "Title 15",
-        "subdate": "December 6",
+        // "subdate": "December 6",
         "img": "images/duo-5.jpg",
         "Active": true,
         "color": "#FACADA"
@@ -143,7 +143,7 @@ export default [
         "id": 16,
         "date": 'Jan 12 2021',
         "title": "Title 16",
-        "subdate": "February 18",
+        // "subdate": "February 18",
         "img": "images/duo-6.jpg",
         "Active": true,
         "color": "#E3FACD"
@@ -152,7 +152,7 @@ export default [
         "id": 17,
         "date": 'Jun 17 2021',
         "title": "Title 17",
-        "subdate": "September 15",
+        // "subdate": "September 15",
         "img": "images/duo-7.jpg",
         "Active": true,
         "color": "#D2FACB"
