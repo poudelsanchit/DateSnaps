@@ -22,8 +22,8 @@ const Card = ({ card }) => {
         //         </p>
         //     </div>
         // </div>
-        <div className='w-[285px]  flex flex-col   font-Roboto tracking-tighter	'>
-            <div className='flex flex-col items-center border-b-[2px] border-border h-max  w-full pb-4	'>
+        <div className='w-[285px]  flex flex-col  text-base font-Sans-serif font-medium tracking-tighter	'>
+            <div className='flex flex-col items-center border-b-[1px] border-border h-max  w-full pb-4	'>
                 <div className='font-meduim'>
                     {date[0] + " " + date[1]}
 
@@ -31,7 +31,7 @@ const Card = ({ card }) => {
                 <div className='text-xs text-datessecondary'>{date[2]}</div>
 
             </div>
-            <div className='h-full border-r-[2px] border-border p-2  '>Error 404</div>
+            <div className='h-full border-r-[1px] border-border pl-4 pt-2 '>Error 404</div>
         </div>
     )
 }
