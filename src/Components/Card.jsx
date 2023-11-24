@@ -1,7 +1,14 @@
 import React from 'react'
+import Popbox from './Popbox';
+import data from '../data';
 
 const Card = ({ card }) => {
     var date = card.date.split(" ");
+
+    const Pop = data.map(item => {return( <Popbox key={item.SN} {...item}/>)})
+
+
+
 
     return (
         // <div
@@ -31,7 +38,8 @@ const Card = ({ card }) => {
                 <div className='text-xs text-datessecondary'>{date[2]}</div>
 
             </div>
-            <div className='h-full border-r-[1px] border-border pl-4 pt-2 '>Error 404</div>
+            <div className='h-full border-r-[1px] border-border pl-1 pr-1 pt-2 '>{Pop}</div>
+            
         </div>
     )
 }
