@@ -106,6 +106,7 @@ export default [
       },
       {
         "id": 12,
+        "date": 'July 19 2020',
         "title": "Title 12",
         // "subdate": "July 19",
         "img": "images/duo-2.jpg",
