@@ -5,20 +5,18 @@ import Draft from '../Draft.js'
 import Card from './Card';
 import "./style/popbox.css"
 const Body = () => {
-    console.log(Math.floor(Math.random()*6 ))
     const targetRef = useRef(null);
     const { scrollYProgress } = useScroll({
         target: targetRef,
     });
 
     const x = useTransform(scrollYProgress, [0, 1], ["0%", "-80%"]);
-console.log(Draft)
     return (
         <section ref={targetRef} className="relative h-[300vh] bg-datesprimary">
             <div className="fixed top-20 flex h-screen  overflow-hidden">
                 <motion.div style={{ x }} className="flex">
                     {Draft.map((card) => {
-                        return <Card card={card}  />;
+                        return <Card card={card} key={card.id} />;
                     })}
 
                 </motion.div>

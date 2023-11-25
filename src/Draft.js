@@ -6,6 +6,7 @@ export default [
         // "subdate": "February 5",
         "img": "images/agnes-1.jpg",
         "Active": true,
+        "images":[ "images/agnes-1.jpg","images/agnes-2.jpg","images/agnes-3.jpg"],
         "text": {
           "id": 1,
           "date": 'Oct 1 2019',
@@ -105,15 +106,7 @@ export default [
         "color": "#FACBDA"
       },
       {
-        "id": 12,
-        "date": 'July 19 2020',
-        "title": "Title 12",
-        // "subdate": "July 19",
-        "img": "images/duo-2.jpg",
-        "Active": true,
-        "color": "#E3FACD"
-      },
-      {
+
         "id": 13,
         "date": 'Jul 1 2020',
         "title": "Title 13",
