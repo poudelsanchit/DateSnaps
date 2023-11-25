@@ -1,7 +1,5 @@
 import React from 'react'
 import { motion, useTransform, useScroll } from "framer-motion";
-
-
 const Card = ({ card }) => {
     var date = card.date.split(" ");
     return (
@@ -10,6 +8,7 @@ const Card = ({ card }) => {
 
             <div className='flex flex-col items-center border-b-[1px] border-border h-max  w-full pb-4	'>
                 <div className='font-meduim'>
+
                     {`${date[0]} ${date[1]}`}
 
                     {/* {date[0] + " " + date[1]} */}
@@ -20,6 +19,7 @@ const Card = ({ card }) => {
             </div>
             <div className='h-full border-r-[1px] border-border pl-1 pr-1 pt-2 '>
                 <div>
+
 
                     <div className="  rounded-md pt-[6px] px-[14px] pb-[12px] m-[4px]" style={card.color ? { backgroundColor: card.color } : null}>
                         
