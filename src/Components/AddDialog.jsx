@@ -7,6 +7,7 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 
+
 export default function AddDialog() {
   const [open, setOpen] = React.useState(false);
 
@@ -22,27 +23,31 @@ export default function AddDialog() {
     <React.Fragment>
       <div className='Btn fixed bottom-6 right-16  '>
       <button onClick={handleClickOpen} className=' rounded-full bg-slate-950 text-white w-12 h-12 font-bold shadow-sm text-xl hover:bg-gray-700'>+</button>
-      </div><Dialog open={open} onClose={handleClose}>
-        <DialogTitle>Subscribe</DialogTitle>
-        <DialogContent>
+      </div><Dialog  className=' rounded-full' open={open} onClose={handleClose}>
+        <div className=' bg-indigo-200 text-white'>
+        <DialogTitle></DialogTitle>
+        <DialogContent  className=' rounded-full'>
           <DialogContentText>
-            To subscribe to this website, please enter your email address here. We
-            will send updates occasionally.
+          
           </DialogContentText>
           <TextField
             autoFocus
             margin="dense"
             id="name"
-            label="Email Address"
-            type="email"
+            label="What's on your Mind ?"
+            type="textarea"
             fullWidth
             variant="standard"
           />
+          <input type='file'></input>
         </DialogContent>
+
+
+
         <DialogActions>
           <Button onClick={handleClose}>Cancel</Button>
-          <Button onClick={handleClose}>Subscribe</Button>
-        </DialogActions>
+          <Button onClick={handleClose}>Add</Button>
+        </DialogActions></div>
       </Dialog>
     </React.Fragment>
   );

@@ -5,6 +5,7 @@ const Card = ({ card }) => {
     var date = card.date.split(" ");
     return (
 
+
         <div className='w-[300px]  flex flex-col  text-base font-Sans-serif font-medium tracking-tighter 	'>
 
             <div className='flex flex-col items-center border-b-[1px] border-border h-max  w-full pb-4	'>
