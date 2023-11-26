@@ -1,156 +1,177 @@
 export default [
-    {
-        "id": 1,
-        "date": 'Oct 1 2019',
-        "title": "Title 1",
-        // "subdate": "February 5",
-        "img": "images/agnes-1.jpg",
-        "Active": true,
-        "images":[ "images/agnes-1.jpg","images/agnes-2.jpg","images/agnes-3.jpg"],
-        "text": {
-          "id": 1,
-          "date": 'Oct 1 2019',
-          "title": "Title 1",
-          "subdate": "February 5",
-        },
-        "color": "#D2E3FA"
-      },
-      {
-        "id": 2,
-        "date": 'Jun 8 2019',
-        "title": "Title 2",
-        // "subdate": "December 22",
-        "img": "images/agnes-2.jpg",
-        "Active": true,
-        "color": "#FACADA"
-      },
-      {
-        "id": 3,
-        "date": 'May 22 2020',
-        "title": "Title 3",
-        // "subdate": "March 15",
-        "img": "images/agnes-3.jpg",
-        "Active": true,
-        "color": "#BEE3D2"
-      },
-      {
-        "id": 4,
-        "date": 'Jul 1 2020',
-        "title": "Title 4",
-        "subdate": "April 8",
-        "img": "images/amie-team.jpg",
-        "Active": true,
-        "color": "#E3D2FA"
-      },
-      {
-        "id": 5,
-        "date": 'Jul 9 2020',
-        "title": "Title 5",
-        // "subdate": "June 12",
-        "img": "images/antoine-1.jpg",
-        "Active": true,
-        "color": "#FAD2E3"
-      },
-      {
-        "id": 6,
-        "date": 'Nov 28 2020',
-        "title": "Title 6",
-        // "subdate": "October 2",
-        "img": "images/antoine-2.jpg",
-        "Active": true,
-        "color": "#D2FACB"
-      },
-      {
-        "id": 7,
-        "date": 'Jan 12 2021',
-        "title": "Title 7",
-        // "subdate": "January 17",
-        "img": "images/antoine-3.jpg",
-        "Active": true,
-        "color": "#E3FACD"
-      },
-      {
-        "id": 8,
-        "date": 'Apr 16 2021',
-        "title": "Title 8",
-        // "subdate": "June 6",
-        "img": "images/bcn-shoot.jpg",
-        "Active": true,
-        "color": "#FAD2E3"
-      },
-      {
-        "id": 9,
-        "date": 'Jun 17 2021',
-        "title": "Title 9",
-        // "subdate": "November 21",
-        "img": "images/camera-roll.jpg",
-        "Active": true,
-        "color": "#D2E3FA"
-      },
-      {
-        "id": 10,
-        "date": 'Oct 1 2019',
-        "title": "Title 10",
-        // "subdate": "August 14",
-        "img": "images/christian@2x.jpg",
-        "Active": true,
-        "color": "#FACBDA"
-      },
-      {
-        "id": 11,
-        "date": 'May 22 2020',
-        "title": "Title 11",
-        // "subdate": "September 3",
-        "img": "images/duo-1.jpg",
-        "Active": true,
-        "color": "#FACBDA"
-      },
-      {
+  {
+    "id": 1,
+    "date": 'Oct 1 2008',
+    "title": "Those Manchester Days",
+    // "subdate": "February 5",
+    "img": "images/agnes-1.jpg",
+    "Active": true,
+    "images": ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg"],
+    "color": "#D2E3FA"
+  },
+  {
+    "id": 2,
+    "date": 'Jun 8 2019',
+    "title": "Title 2",
+    // "subdate": "December 22",
+    "img": "images/agnes-2.jpg",
+    "Active": true,
+    "images": ["images/2.jpg", "images/3.jpg", "images/4.jpg", "images/1.jpg",],
 
-        "id": 13,
-        "date": 'Jul 1 2020',
-        "title": "Title 13",
-        // "subdate": "April 27",
-        "img": "images/duo-3.jpg",
-        "Active": true,
-        "color": "#FACBDA"
-      },
-      {
-        "id": 14,
-        "date": 'Jul 9 2020',
-        "title": "Title 14",
-        // "subdate": "May 10",
-        "img": "images/duo-4.jpg",
-        "Active": true,
-        "color": "#FACADA"
-      },
-      {
-        "id": 15,
-        "date": 'Nov 28 2020',
-        "title": "Title 15",
-        // "subdate": "December 6",
-        "img": "images/duo-5.jpg",
-        "Active": true,
-        "color": "#FACADA"
-      },
-      {
-        "id": 16,
-        "date": 'Jan 12 2021',
-        "title": "Title 16",
-        // "subdate": "February 18",
-        "img": "images/duo-6.jpg",
-        "Active": true,
-        "color": "#E3FACD"
-      },
-      {
-        "id": 17,
-        "date": 'Jun 17 2021',
-        "title": "Title 17",
-        // "subdate": "September 15",
-        "img": "images/duo-7.jpg",
-        "Active": true,
-        "color": "#D2FACB"
-      },
+    "color": "#FACADA",
+    "file": {
+      "id": 3,
+      "date": 'May 22 2020',
+      "title": "Title 3",
+      // "subdate": "March 15",
+      "img": "images/agnes-3.jpg",
+      "Active": true,
+      "images": ["images/3.jpg", "images/1.jpg", "images/2.jpg", "images/4.jpg"],
+      "color": "#BEE3D2"
+
+    }
+  },
+  {
+    "id": 3,
+    "date": 'May 22 2020',
+    "title": "Title 3",
+    // "subdate": "March 15",
+    "img": "images/agnes-3.jpg",
+    "Active": true,
+    "images": ["images/3.jpg", "images/1.jpg", "images/2.jpg", "images/4.jpg"],
+    "color": "#BEE3D2"
+  },
+  {
+    "id": 4,
+    "date": 'Jul 1 2020',
+    "title": "Title 4",
+    "subdate": "April 8",
+    "img": "images/amie-team.jpg",
+    "Active": true,
+    "images": ["images/4.jpg", "images/1.jpg", "images/2.jpg", "images/3.jpg"],
+    "color": "#E3D2FA"
+  },
+  {
+    "id": 5,
+    "date": 'Jul 9 2020',
+    "title": "Title 5",
+    // "subdate": "June 12",
+    "img": "images/antoine-1.jpg",
+    "Active": true,
+    "images": ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg"],
+    "color": "#FAD2E3"
+  },
+  {
+    "id": 6,
+    "date": 'Nov 28 2020',
+    "title": "Title 6",
+    // "subdate": "October 2",
+    "img": "images/antoine-2.jpg",
+    "Active": true,
+    "images": ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg"],
+    "color": "#D2FACB"
+  },
+  {
+    "id": 7,
+    "date": 'Jan 12 2021',
+    "title": "Title 7",
+    // "subdate": "January 17",
+    "img": "images/antoine-3.jpg",
+    "Active": true,
+    "images": ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg"],
+    "color": "#E3FACD"
+  },
+  {
+    "id": 8,
+    "date": 'Apr 16 2021',
+    "title": "Title 8",
+    // "subdate": "June 6",
+    "img": "images/bcn-shoot.jpg",
+    "Active": true,
+    "images": ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg"],
+    "color": "#FAD2E3"
+  },
+  {
+    "id": 9,
+    "date": 'Jun 17 2021',
+    "title": "Title 9",
+    // "subdate": "November 21",
+    "img": "images/camera-roll.jpg",
+    "Active": true,
+    "images": ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg"],
+    "color": "#D2E3FA"
+  },
+  {
+    "id": 10,
+    "date": 'Oct 1 2019',
+    "title": "Title 10",
+    // "subdate": "August 14",
+    "img": "images/christian@2x.jpg",
+    "Active": true,
+    "images": ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg"],
+    "color": "#FACBDA"
+  },
+  {
+    "id": 11,
+    "date": 'May 22 2020',
+    "title": "Title 11",
+    // "subdate": "September 3",
+    "img": "images/duo-1.jpg",
+    "Active": true,
+    "images": ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg"],
+    "color": "#FACBDA"
+  },
+  {
+
+    "id": 13,
+    "date": 'Jul 1 2020',
+    "title": "Title 13",
+    // "subdate": "April 27",
+    "img": "images/duo-3.jpg",
+    "Active": true,
+    "images": ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg"],
+    "color": "#FACBDA"
+  },
+  {
+    "id": 14,
+    "date": 'Jul 9 2020',
+    "title": "Title 14",
+    // "subdate": "May 10",
+    "img": "images/duo-4.jpg",
+    "Active": true,
+    "images": ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg"],
+    "color": "#FACADA"
+  },
+  {
+    "id": 15,
+    "date": 'Nov 28 2020',
+    "title": "Title 15",
+    // "subdate": "December 6",
+    "img": "images/duo-5.jpg",
+    "Active": true,
+    "images": ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg"],
+    "color": "#FACADA"
+  },
+  {
+    "id": 16,
+    "date": 'Jan 12 2021',
+    "title": "Title 16",
+    // "subdate": "February 18",
+    "img": "images/duo-6.jpg",
+    "Active": true,
+    "images": ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg"],
+    "color": "#E3FACD"
+  },
+  {
+    "id": 17,
+    "date": 'Jun 17 2021',
+    "title": "Title 17",
+    // "subdate": "September 15",
+    "img": "images/duo-7.jpg",
+    "Active": true,
+    "images": ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg"],
+    "color": "#D2FACB"
+  },
   // {
   //   "id": 18,
   //   "title": "Title 18",
