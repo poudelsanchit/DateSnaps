@@ -1,5 +1,4 @@
 import React from 'react'
-import { motion, useTransform, useScroll } from "framer-motion";
 const Card = ({ card }) => {
     var date = card.date.split(" ");
     return (
