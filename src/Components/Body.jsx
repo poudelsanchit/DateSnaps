@@ -3,7 +3,7 @@ import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
 import Draft from '../Draft.js'
 import Card from './Card';
-import Button from './Button.jsx'
+import Button from './AddDialog.jsx'
 import "./style/popbox.css"
 const Body = () => {
     const targetRef = useRef(null);
