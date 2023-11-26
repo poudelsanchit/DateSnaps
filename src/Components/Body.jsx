@@ -4,6 +4,7 @@ import { useRef } from "react";
 import Draft from '../Draft.js'
 import Card from './Card';
 import Button from './AddDialog.jsx'
+import TestAdd from './TestAdd.jsx';
 import "./style/popbox.css"
 const Body = () => {
     const targetRef = useRef(null);
@@ -22,7 +23,9 @@ const Body = () => {
 
                 </motion.div>
             </div>
+            <TestAdd/>
             <Button/>
+          
         </section>
     );
 }
