@@ -5,6 +5,7 @@ import Draft from '../Draft.js'
 import Card from './Card';
 import AddSnaps from './AddSnaps.jsx';
 import "./style/popbox.css"
+import ScrollBar from './ScrollBar.jsx';
 const Body = () => {
     const targetRef = useRef(null);
     const { scrollYProgress } = useScroll({
@@ -23,7 +24,9 @@ const Body = () => {
                 </motion.div>
             </div>
             <AddSnaps/>
-          
+            <ScrollBar/>
+            
+            
         </section>
     );
 }
