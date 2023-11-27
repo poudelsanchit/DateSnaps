@@ -4,8 +4,11 @@ import { FaPlus } from "react-icons/fa6";
 import { IoClose } from "react-icons/io5";
 import Image1 from '/images/1.jpg'
 import { BsImage, BsImages } from 'react-icons/bs'
+import usePreviewImage from '../hooks/useImagePreview';
 
 export default function TestAdd() {
+  const { imageUrl, handleImageChange } = usePreviewImage();
+  const fileRef = useRef(null);
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -14,8 +17,8 @@ export default function TestAdd() {
     setIsOpen(prev => !prev);
   };
 
-  const fileRef = useRef(null);
 
+console.log(imageUrl)
   console.log(isOpen)
   return (
     <>
@@ -61,7 +64,7 @@ export default function TestAdd() {
         //         </div>
         <div className=' pt-10 fixed bg-opacity-25 w-full h-screen backdrop-blur-[2px] flex justify-center  z-50 '>
 
-          <div className=" bg-[#ffffff]  sm:h-[60%] h-[90%] sm:w-4/12 w-full rounded-md shadow-md flex flex-col pb-5 ">
+          <div className=" bg-[#ffffff]  sm:h-max h-[90%] sm:w-4/12 w-full rounded-md shadow-md flex flex-col pb-5 ">
             <div className='flex justify-center items-center w-full pt-4  text-xl h-max'>
               <div className='font-Roboto tracking-tighter border-b-[1px]  border-datessecondary w-full flex justify-between items-center'>
                 <div></div>
@@ -79,8 +82,20 @@ export default function TestAdd() {
                 </div>
 
               </div>
-              <div className='pl-16 pt-5'><BsImages className='text-2xl cursor-pointer' onClick={()=>fileRef.current.click()}/></div>
-              <input type="file" name="" id="" className='hidden' ref={fileRef}/>
+              <div className='flex flex-col'>
+              
+              {imageUrl ?            
+              <img src={imageUrl} alt=""  className='h-60 w-full object-contain rounded-md mt-2'/>
+               : null}
+
+              <div className='pl-16 pt-5'>
+                <BsImages className='text-2xl cursor-pointer' onClick={()=>fileRef.current.click()}/>
+              </div>
+              <input type="file" className='hidden' ref={fileRef} onChange={handleImageChange} />
+
+              </div>
+
+            
 
             </div>
 
