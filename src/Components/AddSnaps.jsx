@@ -22,7 +22,7 @@ console.log(imageUrl)
   console.log(isOpen)
   return (
     <>
-      <div className='Btn fixed bottom-6 right-16  '>
+      <div className='Btn fixed bottom-6 right-5 md:right-10  '>
         <button onClick={TriggerBtn} className='w-12 h-12 flex justify-center items-center rounded-full  bg-slate-900 dark:bg-white text-white   hover:bg-gray-700 text-xl'>
           <FaPlus className='dark:text-black'/>
         </button>
