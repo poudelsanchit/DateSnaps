@@ -8,8 +8,8 @@ const Card = ({ card }) => {
 
         <div className='w-[300px]  flex flex-col  text-base font-Sans-serif font-medium tracking-tighter 	'>
 
-            <div className='flex flex-col items-center border-b-[1px] border-border h-max  w-full pb-4	'>
-                <div className='font-meduim'>
+            <div className='flex flex-col items-center border-b-[1px] border-border dark:border-darkBorder h-max  w-full pb-4	'>
+                <div className='font-meduim dark:text-white'>
 
                     {`${date[0]} ${date[1]}`}
 
@@ -19,7 +19,7 @@ const Card = ({ card }) => {
                 <div className='text-xs text-datessecondary'>{`${date[2]}`}</div>
 
             </div>
-            <div className='h-full border-r-[1px] border-border pl-1 pr-1 pt-2  '>
+            <div className='h-full border-r-[1px] border-border dark:border-darkBorder pl-1 pr-1 pt-2  '>
                 <div className='origin-center  flex flex-col gap-5  '>
 
 
