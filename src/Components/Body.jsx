@@ -3,8 +3,7 @@ import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
 import Draft from '../Draft.js'
 import Card from './Card';
-import Button from './AddDialog.jsx'
-import TestAdd from './TestAdd.jsx';
+import AddSnaps from './AddSnaps.jsx';
 import "./style/popbox.css"
 const Body = () => {
     const targetRef = useRef(null);
@@ -23,8 +22,7 @@ const Body = () => {
 
                 </motion.div>
             </div>
-            <TestAdd/>
-            <Button/>
+            <AddSnaps/>
           
         </section>
     );
