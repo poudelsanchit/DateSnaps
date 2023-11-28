@@ -12,4 +12,3 @@ DateSnaps is a delightful project built using Vite, React.js, and Tailwind CSS. 
 - **Vite & React:** Built on modern technologies like Vite and React, ensuring a fast and responsive application.
 
 
-Test
