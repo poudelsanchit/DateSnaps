@@ -31,9 +31,9 @@ function InstaStories() {
     ]
 
   return (
-    // <div className=' bg-opacity-25 backdrop-blur-[2px]  '>
+    <div className=' h-screen flex justify-center w-screen fixed bg-opacity-25 backdrop-blur-[2px]'>
     
-    <div className=' bg-opacity-25  fixed top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] backdrop-blur-sm'><Stories  className=' rounded-md'
+    <div className=' rounded-md mt-12 h-fit border-solid border-8 border-white'><Stories
     
     loop={true}
     stories={story}
@@ -41,9 +41,15 @@ function InstaStories() {
     width={320}
     height={488}
     keyboardNavigation={true}
-    /></div>
+    />
+    <div className=' flex  bg-white h-12 font-Roboto '>
+        <div><img src='https://picsum.photos/100/100' className=' absolute h-8 m-2 rounded-full'/></div>
+        <div className='ml-12 mt-3'> Date Snaps</div>
+        
+    </div>
+    </div>
 
-    // </div>
+     </div>
   )
 }
 
