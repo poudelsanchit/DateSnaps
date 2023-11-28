@@ -3,6 +3,7 @@ import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
 import Draft from '../Draft.js'
 import Card from './Card';
+import InstaStories from './InstaStories.jsx';
 import AddSnaps from './AddSnaps.jsx';
 import "./style/popbox.css"
 import ScrollBar from './ScrollBar.jsx';
@@ -15,7 +16,7 @@ const Body = ({handleDisplayImage}) => {
 
     const x = useTransform(scrollYProgress, [0, 1], ["0%", "-80%"]);
     return (
-        <section ref={targetRef} className="relative h-[300vh] bg-datesprimary dark:bg-datesDarkPrimary">
+        <section ref={targetRef} className="relative h-[300vh] bg-datesprimary dark:bg-slate-700">
             <div className="fixed top-20 flex h-screen  overflow-hidden">
                 <motion.div style={{ x }} className="flex">
                     {Draft.map((card) => {
@@ -25,6 +26,8 @@ const Body = ({handleDisplayImage}) => {
             </div>           
             <AddSnaps/>
             <ScrollBar/>
+            
+            <InstaStories/>
             {/* <ImagePreview/>          */}
         </section>
     );

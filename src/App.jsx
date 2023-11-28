@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom"
 import Body from "./Components/Body"
 import NavBar from "./Components/NavBar"
 import PhotoTest from "./PhotoTest"
+import InstaStories from "./Components/InstaStories"
 import { useState } from "react"
 
 
@@ -20,6 +21,7 @@ function App() {
     <Routes>
     <Route path="/" element={<Body handleDisplayImage={handleDisplayImage} />}/>
     <Route path='/test' element={<PhotoTest/>} />
+    <Route path="/InstaStories" element={<InstaStories/>} />
     </Routes>
     </>
   )
