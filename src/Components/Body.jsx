@@ -21,9 +21,12 @@ const Body = () => {
                     {Draft.map((card) => {
                         return <Card card={card} key={card.id} />;
                     })}
+                    
 
                 </motion.div>
+                
             </div>
+           
             <AddSnaps/>
             <ScrollBar/>
             

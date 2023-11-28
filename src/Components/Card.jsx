@@ -52,6 +52,7 @@ const Card = ({ card }) => {
 
                 </div>
             </div>
+            
         </div>
     )
 }

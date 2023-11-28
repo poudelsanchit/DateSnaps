@@ -5,11 +5,11 @@ import PhotoTest from "./PhotoTest"
 import Dilog from "./Components/Dilog"
 import InstaStories from "./Components/InstaStories"
 
+
 function App() {
 
   return (
     <>
-      <Dilog/>
     <NavBar/>
     <Routes>
     <Route path="/" element={<Body/>}/>
