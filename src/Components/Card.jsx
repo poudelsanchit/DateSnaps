@@ -1,12 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import ImageCard from './ImageCard'
-const Card = ({ card }) => {
+import ImagePreview from './ImagePreview';
+const Card = ({ card,handleDisplayImage }) => {
+    const [isClicked,setIsClicked] = useState(true)
+    const imagePreviewer=()=>{
+        setIsClicked(prev=>!prev)
+        var a = 'hello world';
+        console.log(card.images)
+        var data= card.images
+        handleDisplayImage({data});
+    }
+
     var date = card.date.split(" ");
     return (
 
 
-        <div className='w-[300px]  flex flex-col  text-base font-Sans-serif font-medium tracking-tighter 	'>
+        <div className='w-[300px] flex flex-col text-base font-Sans-serif font-medium tracking-tighter 	'>
 
             <div className='flex flex-col items-center border-b-[1px] border-border dark:border-darkBorder h-max  w-full pb-4	'>
                 <div className='font-meduim dark:text-white'>
@@ -27,10 +37,11 @@ const Card = ({ card }) => {
 
                         <div className="title">{card?.title}</div>
                         <div className="date">{`${date[0]} ${date[1]}`}</div>
-                        <div className=" relative h-24 w-full cursor-pointer ">
+                        <div className=" relative h-24 w-full cursor-pointer " onClick={imagePreviewer}>
                             {card?.images?.map((images, index) => {
                                 return <ImageCard images={images} index={index} key={index} />;
                             })}
+
 
                         </div>
 
@@ -52,7 +63,6 @@ const Card = ({ card }) => {
 
                 </div>
             </div>
-            
         </div>
     )
 }
