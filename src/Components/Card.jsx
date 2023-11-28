@@ -15,7 +15,7 @@ const Card = ({ card,handleDisplayImage,handleAnimation }) => {
     return (
 
 
-        <div className='w-[300px] flex flex-col text-base font-Sans-serif font-medium tracking-tighter 	'>
+        <div className='w-[300px]  flex flex-col text-base font-Sans-serif font-medium tracking-tighter 	'>
 
             <div className='flex flex-col items-center border-b-[1px] border-border dark:border-darkBorder h-max  w-full pb-4	'>
                 <div className='font-meduim dark:text-white'>
