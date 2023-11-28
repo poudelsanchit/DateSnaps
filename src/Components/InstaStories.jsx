@@ -42,10 +42,10 @@ function InstaStories() {
     height={488}
     keyboardNavigation={true}
     />
-    <div className=' flex  bg-white h-12 font-Roboto '>
+    <div className=' flex  bg-white h-12 font-Arial '>
         <div><img src='https://picsum.photos/100/100' className=' absolute h-8 m-2 rounded-full'/></div>
         <div className='ml-12 mt-3'> Date Snaps</div>
-        
+        <div className='ml-40 mt-3 flex  text-slate-700 cursor-pointer'> x </div>
     </div>
     </div>
 
