@@ -91,10 +91,8 @@ console.log(imageUrl)
               <div className='pl-16 pt-5 pr-5 flex justify-between'>
                 <BsImages className='text-2xl cursor-pointer' onClick={()=>fileRef.current.click()}/>
                 <div className='bg-black w-32 h-10 rounded text-white flex justify-center items-center cursor-pointer' onClick={()=>setIsOpen(prev=>!prev)}>Upload</div>
-
               </div>
               <input type="file" className='hidden' ref={fileRef} onChange={handleImageChange} />
-
               </div>
 
             

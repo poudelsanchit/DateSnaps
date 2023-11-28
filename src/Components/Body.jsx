@@ -14,7 +14,7 @@ const Body = () => {
 
     const x = useTransform(scrollYProgress, [0, 1], ["0%", "-80%"]);
     return (
-        <section ref={targetRef} className="relative h-[300vh] bg-datesprimary dark:bg-datesDarkPrimary">
+        <section ref={targetRef} className="relative h-[300vh] bg-datesprimary dark:bg-slate-700">
             <div className="fixed top-20 flex h-screen  overflow-hidden">
                 <motion.div style={{ x }} className="flex">
                     {Draft.map((card) => {

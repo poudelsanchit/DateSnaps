@@ -24,7 +24,7 @@ const NavBar = () => {
       
 
     return (
-        <div className='bg-datesprimary dark:bg-datesDarkPrimary z-50 sticky top-0 h-22 flex justify-between text-3xl pt-4 pb-6 font-Roboto text-datessecondary font-medium items-center px-8'>
+        <div className='bg-datesprimary  dark:bg-slate-700 z-50 sticky top-0 h-22 flex justify-between text-3xl pt-4 pb-6 font-Roboto text-datessecondary font-medium items-center px-8'>
     
             <div>
                 <span className='text-black dark:text-white font-semibold'>Date</span>
