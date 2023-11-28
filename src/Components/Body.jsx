@@ -27,7 +27,7 @@ const Body = ({handleDisplayImage}) => {
             <AddSnaps/>
             <ScrollBar/>
             
-            {/* <InstaStories/> */}
+            <InstaStories/>
             {/* <ImagePreview/>          */}
         </section>
     );
