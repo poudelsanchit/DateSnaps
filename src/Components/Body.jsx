@@ -6,7 +6,8 @@ import Card from './Card';
 import AddSnaps from './AddSnaps.jsx';
 import "./style/popbox.css"
 import ScrollBar from './ScrollBar.jsx';
-const Body = () => {
+import ImagePreview from './ImagePreview.jsx';
+const Body = ({handleDisplayImage}) => {
     const targetRef = useRef(null);
     const { scrollYProgress } = useScroll({
         target: targetRef,
@@ -18,18 +19,13 @@ const Body = () => {
             <div className="fixed top-20 flex h-screen  overflow-hidden">
                 <motion.div style={{ x }} className="flex">
                     {Draft.map((card) => {
-                        return <Card card={card} key={card.id} />;
+                        return <Card card={card} key={card.id}  handleDisplayImage={handleDisplayImage}/>;
                     })}
-                    
-
                 </motion.div>
-                
-            </div>
-           
+            </div>           
             <AddSnaps/>
             <ScrollBar/>
-            
-            
+            {/* <ImagePreview/>          */}
         </section>
     );
 }

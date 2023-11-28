@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ImageCard = ({images,index}) => {
+const ImageCard = ({images,index,handleDisplayImage}) => {
   return (
     <img src={images} className={
     index===0?'absolute object-cover  h-44 w-full rounded-lg bg-yellow-700 origin-center  rotate-2'
