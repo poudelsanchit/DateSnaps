@@ -33,13 +33,9 @@ const Body = ({handleDisplayImage,imagePreview}) => {
             <AddSnaps/>
             <ScrollBar/>
             
-<<<<<<< HEAD
-            {/* <InstaStories/> */}
-            <ImagePreview imagePreview={imagePreview} isAnimationActive={isAnimationActive} />         
-=======
-            <InstaStories/>
-            {/* <ImagePreview/>          */}
->>>>>>> d87c92550e9c24d0d105968c13b0f6352e6e649e
+            <InstaStories imagePreview={imagePreview} isAnimationActive={isAnimationActive}/>
+            {/* <ImagePreview imagePreview={imagePreview} isAnimationActive={isAnimationActive} />          */}
+
         </section>
     );
 }
