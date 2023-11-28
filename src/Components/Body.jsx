@@ -3,6 +3,7 @@ import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
 import Draft from '../Draft.js'
 import Card from './Card';
+import InstaStories from './InstaStories.jsx';
 import AddSnaps from './AddSnaps.jsx';
 import "./style/popbox.css"
 import ScrollBar from './ScrollBar.jsx';
@@ -26,7 +27,7 @@ const Body = () => {
             <AddSnaps/>
             <ScrollBar/>
             
-            
+            <InstaStories/>
         </section>
     );
 }
