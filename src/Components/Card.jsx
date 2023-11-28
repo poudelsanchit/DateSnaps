@@ -2,14 +2,13 @@ import React, { useState } from 'react'
 
 import ImageCard from './ImageCard'
 import ImagePreview from './ImagePreview';
-const Card = ({ card,handleDisplayImage }) => {
+const Card = ({ card,handleDisplayImage,handleAnimation }) => {
     const [isClicked,setIsClicked] = useState(true)
     const imagePreviewer=()=>{
         setIsClicked(prev=>!prev)
+        handleAnimation(isClicked)
         var a = 'hello world';
-        console.log(card.images)
-        var data= card.images
-        handleDisplayImage({data});
+        handleDisplayImage(card.images);
     }
 
     var date = card.date.split(" ");
@@ -39,7 +38,7 @@ const Card = ({ card,handleDisplayImage }) => {
                         <div className="date">{`${date[0]} ${date[1]}`}</div>
                         <div className=" relative h-24 w-full cursor-pointer " onClick={imagePreviewer}>
                             {card?.images?.map((images, index) => {
-                                return <ImageCard images={images} index={index} key={index} />;
+                                return <ImageCard images={images} index={index} key={index}/>;
                             })}
 
 
