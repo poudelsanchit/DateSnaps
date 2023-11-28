@@ -10,7 +10,7 @@ export default {
         'datesprimary': '#fafafa',
         'datessecondary': '#969696',
         'border':'#eeeeee',
-        'datesDarkPrimary':'#0b090a',
+        'datesDarkPrimary':'#141414',
         'darkBorder':'#2d2727'
 
         
