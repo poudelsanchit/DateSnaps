@@ -7,7 +7,7 @@ const Contributors = () => {
     const repoName = 'DateSnaps';
     const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contributors`;
 
-    const accessToken = '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'; // Replace with your actual access token
+    const accessToken = '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'; // Replace with your actual access token
 
     useEffect(() => {
         const fetchData = async () => {
