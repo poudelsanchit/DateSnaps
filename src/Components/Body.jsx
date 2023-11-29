@@ -8,12 +8,13 @@ import AddSnaps from './AddSnaps.jsx';
 import "./style/popbox.css"
 import ScrollBar from './ScrollBar.jsx';
 import ImagePreview from './ImagePreview.jsx';
+import Contributors from './Contributers.jsx';
 const Body = ({handleDisplayImage,imagePreview}) => {
     const targetRef = useRef(null);
     const { scrollYProgress } = useScroll({
         target: targetRef,
     });
-    const x = useTransform(scrollYProgress, [0, 1], ["0%", "-80%"]);
+    const x = useTransform(scrollYProgress, [0, 1], ["0%", "-72%"]);
 
     //controlling the imagePreview animation
     const [isAnimationActive,setIsAnimationActive] = useState(false);
@@ -28,8 +29,11 @@ const Body = ({handleDisplayImage,imagePreview}) => {
                     {Draft.map((card) => {
                         return <Card card={card} key={card.id} handleAnimation={handleAnimation}  handleDisplayImage={handleDisplayImage}/>;
                     })}
+                    <Contributors/>
                 </motion.div>
-            </div>           
+                
+            </div>    
+                   
             <AddSnaps/>
             <ScrollBar/>
             
