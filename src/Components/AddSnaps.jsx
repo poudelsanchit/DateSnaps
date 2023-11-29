@@ -9,17 +9,10 @@ import usePreviewImage from '../hooks/useImagePreview';
 export default function TestAdd() {
   const { imageUrl, handleImageChange } = usePreviewImage();
   const fileRef = useRef(null);
-
   const [isOpen, setIsOpen] = useState(false);
-
-
   const TriggerBtn = () => {
     setIsOpen(prev => !prev);
-  };
-
-
-console.log(imageUrl)
-  console.log(isOpen)
+  }
   return (
     <>
       <div className='Btn fixed bottom-6 right-5 md:right-10  '>
@@ -27,41 +20,7 @@ console.log(imageUrl)
           <FaPlus className='dark:text-black'/>
         </button>
       </div>
-
       {isOpen ?
-        //         <div className=' flex justify-center items-center absolute top-96 right-96  '> 
-        //         <div className=' rounded-md p-6 fixed text-white   bg-slate-700 mx-auto w-1/2 text-center '>
-        //         <div className=' ml-11 mb-2 flex justify-around'>
-        //                     <div>Create Post</div>
-        //                     {/* <div>+</div> */}
-        //         </div>
-        //         <div  className='  p-4'>
-        //                     <div className='flex text-left'>
-        //                         <div> <img className=' h-8 mr-2 rounded-full' src='https://res.cloudinary.com/amenitiz/image/upload/w_500,dpr_auto,f_auto,q_auto:good/v1670596120/jd8epqybnwi12n8m2znp.png' /></div>
-        //                         <div>Sanchit Poudel
-        //                             <div className=' rounded-md bg-slate-800 text-white p-1 px-2 w-fit'>Public</div>
-        //                         </div>
-        //                     </div>
-        //                     <div className=' mt-2 mb-2 text-left'><input className=' mt-2  text-2xl w-full bg-transparent border-hidden' type="text" name="" id="" placeholder='whats on your mind? ' /></div>
-        //         </div>
-
-        //         <div className=' flex items-end align-center w-full'>
-        //             <div className=' mr-52'>Add to your Post</div>
-
-
-        // <input class=" absolute right-0 w-56 " id="file_input" type="file"/>
-
-
-        //         </div>
-
-
-
-        //         <div className=' mt-3 bg-slate-600 p-4 rounded-sm hover:cursor-pointer active:bg-blue-700'>Post</div>
-
-
-        //         </div>
-
-        //         </div>
         <div className=' pt-10 fixed bg-opacity-25 w-full h-screen backdrop-blur-[2px] flex justify-center  z-50 '>
 
           <div className=" bg-[#ffffff]  sm:h-max h-[90%] sm:w-4/12 w-full rounded-md shadow-md flex flex-col pb-5 ">
@@ -71,7 +30,6 @@ console.log(imageUrl)
                 <div className='font-bold'>Create Snap</div>
                 <div className=' cursor-pointer hover:bg-white rounded-sm pr-4 ' onClick={TriggerBtn}><IoClose /></div>
               </div>
-
             </div>
             <div className='p-4'>
               <div className='flex  items-center gap-2'>
