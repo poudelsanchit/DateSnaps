@@ -7,16 +7,12 @@ const Contributors = () => {
     const repoName = 'DateSnaps';
     const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contributors`;
 
-    const accessToken = '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'; // Replace with your actual access token
+    // const accessToken = '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'; // Replace with your actual access token
 
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get(apiUrl, {
-                    headers: {
-                       Authorization: `Bearer ${accessToken}`, 
-                    },
-                });
+                const response = await axios.get(apiUrl);
                 setContributors(response.data);
             } catch (error) {
                 console.error('Error fetching contributors:', error);
@@ -24,7 +20,7 @@ const Contributors = () => {
         };
 
         fetchData();
-    }, [apiUrl, accessToken]);
+    }, [apiUrl]);
     console.log(contributors)
     return (
         <div className='w-96  font-roboto flex flex-col items-center  pl-5 gap-4 '>
